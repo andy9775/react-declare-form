@@ -2,9 +2,23 @@
   "name": "react-declare-form",
   "version": "0.0.1",
   "description": "Declarative approach to building forms with hooks behind the scenes",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": "https://github.com/andy9775/react-declare-form",
   "author": "Andy Chrzaszcz",
   "license": "Apache 2.0",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc -p ./",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  }
 }
