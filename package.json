@@ -1,6 +1,6 @@
 {
   "name": "react-declare-form",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "description": "Declarative approach to building forms with hooks behind the scenes",
   "main": "build/index.js",
   "repository": "https://github.com/andy9775/react-declare-form",
