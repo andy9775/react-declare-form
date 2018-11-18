@@ -1,6 +1,6 @@
 {
   "name": "react-declare-form",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2",
   "description": "Declarative approach to building forms with hooks behind the scenes",
   "main": "lib/index.js",
   "repository": "https://github.com/andy9775/react-declare-form",
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc -p ./",
     "prepublish": "yarn build",
-    "postpublish": "rm ./build/*"
+    "postpublish": "rm ./lib/*"
   },
   "devDependencies": {
     "@types/react": "^16.7.6",
