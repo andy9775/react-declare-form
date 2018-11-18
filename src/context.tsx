@@ -75,7 +75,7 @@ const memoize = (
       if (!!shouldUpdate && typeof shouldUpdate === 'function') {
         return shouldUpdate(oldProps, newProps);
       }
-      return true;
+      return false;
     }
   );
 };
