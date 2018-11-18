@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "build": "./node_modules/typescript/bin/tsc -p ./",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "postpublish": "rm ./build/*"
   },
   "devDependencies": {
     "@types/react": "^16.7.6",
